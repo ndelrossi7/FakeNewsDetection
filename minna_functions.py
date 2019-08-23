@@ -12,6 +12,7 @@ from sklearn.manifold import TSNE
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
 import nltk
