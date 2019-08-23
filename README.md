@@ -28,8 +28,20 @@ Outline:
         <img src="images/distplot.png">
     </p> 
     
-   c. Lastly, we created binary classification models fit to our data, to predict if an article was either fake or real based on the article's text. In order to accomplish this, we used vectorized our text with term frequency-inverse document frequency (tf-idf) values, which provided insight to the weight of each word in each document. Then, we used these values as our data in a multinomial naive bayes model and logistic regression model, with the labels being 0 or 1 for fake or real articles. We then performed metric testing to see the accuracy of our models, to which the logistic regression performed better with a 0.972, whereas the naive bayes scored a 0.931. 
+   c. Lastly, we created binary classification models fit to our data, to predict if an article was either fake or real based on the article's text. In order to accomplish this, we used vectorized our text with term frequency-inverse document frequency (tf-idf) values, which provided insight to the weight of each word in each document. Then, we used these values as our data in a multinomial naive bayes model and logistic regression model, with the labels being 0 or 1 for fake or real articles.
    
+   - *Multinomial Naive Bayes*:
+        -  This performed with an accuracy of 0.931
+    <p align="center">
+        <img src="images/nbcf.png">
+    </p> 
+    
+    - *Logistic Regression*:
+        -  This performed with an accuracy of 0.972
+        <p align="center">
+            <img src="images/lrcf.png">
+        </p> 
+        
    
 3. Follow-up and Improvements: In order to further improve our model, we believe incorporating additional features such as news source, URL, or even images will enhance our accuracy. Ultimately, the spread of malicious fake news is detrimental to our democracy and we must find a way to prevent its spread
    
