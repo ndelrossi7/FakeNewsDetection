@@ -7,7 +7,9 @@ Outline:
 2. Project:
 
     a. clean data
+    
     b. exploratory data analysis (EDA)
+    
     c. modeling 
 3. Follow-up & Improvements
 
