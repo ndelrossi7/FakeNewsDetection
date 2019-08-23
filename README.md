@@ -4,7 +4,8 @@ by: Natalie Del Rossi, Minna Fingerhood
 -----------------------------------
 Outline: 
 1. Motivation
-2. Project
+2. Project:
+
     a. clean data
     b. exploratory data analysis (EDA)
     c. modeling 
